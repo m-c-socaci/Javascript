@@ -7,6 +7,18 @@ of an element.
 
 const langs = ["python", "javascript", "c++", "haskel", "php", "ruby"];
 
+for (let j = 0; j < langs.length - 1; j++) {
+  for (let i = j + 1; i < langs.length; i++) {
+    if (langs[j] > langs[i]) {
+      let aux = langs[i];
+      langs[i] = langs[j];
+      langs[j] = aux;
+    }
+  }
+}
+
+console.log(langs);
+
 /*
 
 Example 8 - Search for an element
@@ -16,6 +28,4 @@ for any array of numbers. Use a loop to solve problems.
 
 */
 
-const numbers = [2, 17, 94, 1, 23, 37];
-let min;
-console.log(min); // 1
+const numbers = [99, 17, 94, 1, 23, 37];
