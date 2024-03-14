@@ -19,6 +19,14 @@ const user = {
   premium: true,
 };
 
+user.mood = "happy";
+user.hobby = "skydiving";
+user.premium = false;
+
+for (const key of Object.keys(user)) {
+  console.log(`${key}:${user[key]}`);
+}
+
 /*
 Example 2 -  Object.values() method
 
@@ -33,3 +41,10 @@ const salaries = {
   Ann: 160,
   Pete: 130,
 };
+
+let sum = 0;
+for (const salary of Object.values(salaries)) {
+  sum += salary;
+}
+
+console.log(sum);
