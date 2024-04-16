@@ -1,0 +1,15 @@
+{
+  "name": "lesson15",
+  "version": "1.0.0",
+  "description": "lesson 15",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "cristi",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.11.0"
+  }
+}
