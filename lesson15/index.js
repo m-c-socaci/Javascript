@@ -1,8 +1,10 @@
-import { logSomething, CRISTI_NAME } from "test.js";
+import { logSomething, CRISTI_NAME } from "./test.js";
 import mainFunction from "test.js";
 
 const validator = require("validator");
 
-console.log("Hello node!");
+// import validator from "validator";
+
+console.log(CRISTI_NAME);
 
 console.log(validator.isEmail("cristi@marius.com"));
