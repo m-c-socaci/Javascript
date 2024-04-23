@@ -56,3 +56,8 @@ console.log(date.toUTCString());
 console.log(date.toISOString());
 
 console.log(new Date("1000-03-16T14:25:00Z"));
+
+// Romania daylight saving time: 31 Mar 2024
+
+console.log(new Date("2024-03-31")); // Sun Mar 31 2024 02:00:00 GMT+0200 (Eastern European Standard Time)
+console.log(new Date("2024-04-01")); // Mon Apr 01 2024 03:00:00 GMT+0300 (Eastern European Summer Time)
